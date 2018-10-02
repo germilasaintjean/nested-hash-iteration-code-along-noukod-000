@@ -20,6 +20,6 @@ end
 contact_details_hash.each do |attribute, value|
 end
 if attribute == :favorite_ice_cream_flavors && value == "strawberry"
-  delete  value
+  remove value
 
 end
