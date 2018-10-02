@@ -15,8 +15,9 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-arr = contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
-arr.unshift
+   arr = contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
+   arr.unshift
+end
 
       #contacts.each do |person, contact_details_hash|
 
@@ -26,4 +27,3 @@ arr.unshift
          #end
       #end
    #end
-end
