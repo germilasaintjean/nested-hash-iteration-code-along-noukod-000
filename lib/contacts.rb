@@ -17,7 +17,7 @@ require 'pry'
 def remove_strawberry(contacts)
    arr = contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
    arr.shift
-   return arr
+   return contacts
 end
 
       #contacts.each do |person, contact_details_hash|
