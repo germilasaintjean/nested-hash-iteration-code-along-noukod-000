@@ -15,11 +15,14 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-contacts.each do |person, contact_details_hash|
-end
-contact_details_hash.each do |attribute, value|
-end
-if attribute == :favorite_ice_cream_flavors && value == "strawberry"
-  remove value
-
+arr = contacts["Freddy Mercury"][:favorite_ice_cream_flavors].unshift
+  
+      #contacts.each do |person, contact_details_hash|
+  
+      ## contact_details_hash.each do |attribute, value|
+         #if attribute == :favorite_ice_cream_flavors && value == "strawberry"
+             
+         #end
+      #end
+   #end
 end
